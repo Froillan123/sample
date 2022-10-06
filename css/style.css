@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin: auto;
+    padding: 35px 0;
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+.header ul a{
+    color: aliceblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 30px;
+}
+.header ul a::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(141, 225, 224);
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.header a:hover:after{
+    width: 100%;
+}
+.border{
+    border: 1px solid black;
+}
+.title h1{
+    text-align: center;
+    font-size: 4rem;
+    text-shadow: 3px 2px 3px crimson;
+}
+body{
+    background-color: #AFB8B5;
+}
+.image{
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+.img{
+    width: 50%;
+    padding: 25px;
+    left: 120px;
+    border-radius: 50%;
+    margin: 23% auto 0 auto;
+    background: linear-gradient(110deg, blueviolet 50%,  transparent 50%);
+    position: relative;
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+.image :hover{
+    background-position: 0% 0%;
+}
+.paragraph{
+    margin: 8% 0 auto 60%;
+    width: 25%;
+    padding: 40px; 
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #B048B5	;
+    border-radius: 20%;
+}
+.text{
+    font-size: 17px;
+    font-family: tahoma;
+    font-style: oblique;
+    text-align: justify;
+    transition: background 0.9s;
+}
+.paragraph:hover{
+    transform: scale(1.1);
+}
+.paragraph2{
+    margin: 20% 0 auto 8%;
+    width: 25%;
+    padding: 40px;
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #5A5A5A;
+    border-radius: 20%;
+}
+
+.text2{
+    font-size: 15px;
+    font-family: tahoma;
+    font-style: normal;
+    text-align: justify;
+    transition: background 0.9s;
+}
+.paragraph2:hover{
+    transform: scale(1.1);
+}
+.luffy{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    margin: -45% auto 0 auto;
+}
+.child{
+    width: 50%;
+    display: block;
+    margin: 24% auto 25% auto;
+    border-radius: 50%;
+    padding: 25px;
+    background: linear-gradient(135deg, white, black 50%, transparent 50%);
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+.luffy :hover{
+    background-position: 0% 0%;
+}
+.image2{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    margin: 5% auto 0 auto;
+}
+.img2{
+    width: 50%;
+    padding: 25px;
+    left: 120px;
+    margin: 16% auto 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(110deg, red 50%, transparent 50%);
+    position: relative;
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+.img2:hover{
+    background-position: 0% 0%;
+}
+.paragraph3{
+    margin: 18% 0 auto 60%;
+    width: 25%;
+    padding: 40px; 
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #00008B;
+    border-radius: 20%;
+}
+.text3{
+    font-size: 15px;
+    font-family: tahoma;
+    font-style: normal;
+    text-align: justify;
+    transition: background 0.9s;
+}
+.paragraph3:hover{
+    transform: scale(1.1);
+}
+.image3{
+    width: 50%;
+    height: 100vh;
+    float: right;
+    margin: 7% auto 0 auto;
+}
+.daniel{
+    width: 50%;
+    display: block;
+    margin: 8% auto 25% auto;
+    border-radius: 50%;
+    padding: 25px;
+    background: linear-gradient(110deg, black 50%, transparent 50%);
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+.daniel:hover{
+    background-position: 0% 0%;
+}
+.paragraph4{
+    margin: 18% 0 auto 8%;
+    width: 25%;
+    padding: 40px;
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #000;
+    border-radius: 20%;
+}
+.text4{
+    font-size: 15px;
+    font-family: tahoma;
+    font-style: normal;
+    text-align: justify;
+    transition: background 0.9s;
+}
+.paragraph4:hover{
+    transform: scale(1.1);
+}
+.image4{
+    width: 50%;
+    height: 100vh;
+    float: left;
+    margin: 5% auto 0 auto;
+}
+.Kim{
+    width: 50%;
+    padding: 25px;
+    left: 120px;
+    margin: 12% auto 0 auto;
+    border-radius: 50%;
+    background: linear-gradient(100deg, dodgerblue 50%, transparent 50%);
+    position: relative;
+    background-size: 250%;
+    background-position: 100% 100%;
+    transition: background 0.5s;
+}
+.Kim:hover{
+    background-position: 0% 0%;
+}
+.paragraph5{
+    margin: -60% 0 auto 110%;
+    width: 50%;
+    padding: 60px; 
+    box-shadow: 
+    0 0 0 10px #ee6352,
+    0 0 0 20px #d45379,
+    0 0 0 30px #005A9C;
+    border-radius: 20%;
+}
+.text5{
+    font-size: 15px;
+    font-family: tahoma;
+    font-style: normal;
+    word-spacing: 3px;
+    text-align: justify;
+    transition: background 0.9s;
+}
+.paragraph5:hover{
+    transform: scale(1.1);
+}
+span{
+    font-size: 23px;
+    text-decoration: underline;
+    text-shadow: 2px 3px 4px #961204;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.footer{
+    box-sizing: border-box;
+    background-color: black;
+    padding: 40px 0;
+    position: relative;
+    width: 99.7vw;
+    margin-top: 20%;
+    margin-right: 10%;
+    margin-left: -1.7%;
+}
+.footer .inner-footer{
+    text-align: center;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+.footer .inner-footer a{
+    font-size: 30px;
+    color: inherit;
+    border: 1px solid #ccc;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    border-radius: 40%;
+    margin: 0 10px;
+    opacity: 0.75;
+}
+.footer .inner-footer a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 2;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 12px;
+    color: #aaa;
+}
